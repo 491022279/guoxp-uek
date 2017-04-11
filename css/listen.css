@@ -1,0 +1,440 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-10 19:27:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-11 11:10:58
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+    font-family: "苹方","微软雅黑", "Helvetica";
+    color: #999;
+    overflow: scroll;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	z-index: 999;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #007BE3;
+	width: 100%;
+	height: 1.26rem;
+	display: flex;
+	justify-content: space-around;
+	line-height: 1.26rem;
+}
+.header a{
+	font-size: 0.44rem;
+	color: #fff;
+}
+.banner{
+	width: 100%;
+	height: 6.06rem;
+	background-image: url('../img4/banner.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.banner .banner0{
+	width: 2.68rem;
+	height: 0.1rem;
+	background: #ff8d12;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.content{
+	width: 100%;
+	height: auto;
+	padding: 0.2rem 0.34rem 0;
+	background-color: #F5F6FA;
+}
+.mulu{
+	width: 100%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	font-size: 0.3rem;
+}
+.mulu a{
+	margin: 0 0.2rem;
+	font-size: 0.3rem;
+	color: #494747;
+}
+.mulu a:nth-child(1) {
+	margin-left: 0;
+}
+.listen{
+	padding: 0.5rem 0.32rem 0.4rem;
+	background-color: #fff;
+}
+.li0{
+	width: 100%;
+}
+.li0 .li01{
+	width: 100%;
+	height: 1.84rem;
+}
+.li0 .li01 h1{
+	width: 100%;
+    text-align: center;
+    height: 1rem;
+    letter-spacing: 0.01rem;
+}
+.li0 .li01 h1 span{
+	display: inline-block;
+	font-size: 0.26rem;
+    line-height: 0.26rem;
+    vertical-align: middle;
+    margin-top: -2rem;
+}
+
+.li0 .li01 h1 .p0{
+	font-size: 0.26rem;
+    line-height: 0.36rem;
+    vertical-align: middle;
+}
+.p1{
+	padding: 0.2rem;
+}
+.p1 .p11{
+	width: 1.15rem;
+	height: 0.03rem;
+	background-color: #666;
+	margin: 0 auto;
+}
+.p2{
+	margin-top: 0.36rem;
+	line-height: 0.32rem;
+	font-size: 0.26rem;
+	color: #666;
+	width: 100%;
+	height: 0.32rem;
+	text-align: center;
+}
+.p2 .p20{
+	font-size: 0.26rem;
+	line-height: 0.32rem;
+}
+.li02{
+	width: 100%;
+	height: 5.7rem;
+	margin-top: 0.5rem;
+}
+.li02 .li02-1{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.5rem;
+	font-size: 0.32rem;
+	color: #666;
+	line-height: 0.56rem;
+}
+.li02-2{
+	width: 100%;
+	height: 2.52rem;
+	border-top: 0.01rem solid #666;
+	border-bottom: 0.01rem solid #666;
+	margin-bottom: 0.36rem;
+	overflow: hidden;
+	color: #666;
+}
+.li02-2 .sen{
+	float: left;
+}
+.li02-2 .sen1{
+	width: 2.1rem;
+}
+.li02-2 .sen p:nth-child(1){
+	width: 100%;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.3rem;
+	text-align: center;
+}
+.li02-2 .sen p:nth-child(2){
+	margin-top: 0.2rem;
+}
+.li02-2 .sen p:nth-child(2),.li02-2 .sen p:nth-child(3){
+	width: 100%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.3rem;
+	text-align: left;
+	overflow: hidden;
+}
+.li02-2 .sen2{
+	width: 4rem;
+}
+.li02-2 .sen3{
+	width: 3.3rem;
+}
+.li1{
+	width: 100%;
+	height: auto;
+}
+.li10>h1{
+	width: 100%;
+    text-align: center;
+    height: 1rem;
+    letter-spacing: 0.01rem;
+}
+.li10 h1 span{
+	display: inline-block;
+	font-size: 0.26rem;
+    line-height: 0.26rem;
+    vertical-align: middle;
+    margin-top: -2rem;
+}
+.li10 h1 .a1{
+	font-size: 0.26rem;
+    line-height: 0.36rem;
+    vertical-align: middle;
+}
+.li10 .a2{
+	padding: 0.2rem;
+}
+.li10 .a2 .a22{
+	width: 1.15rem;
+	height: 0.03rem;
+	background-color: #666;
+	margin: 0 auto;
+}
+.li10 .a3{
+	margin-top: 0.36rem;
+	line-height: 0.32rem;
+	font-size: 0.26rem;
+	color: #666;
+	width: 100%;
+	height: 0.32rem;
+	text-align: center;
+}
+.li10 .a3 .a30{
+	font-size: 0.26rem;
+	line-height: 0.32rem;
+}
+.li11{
+	width: 100%;
+	height: auto;
+}
+.li11>p{
+	width: 100%;
+	height: auto;
+	font-size: 0.32rem;
+	color: #666;
+	line-height: 0.5rem;
+	margin-bottom: 0.2rem;
+	margin-top: 0.5rem;
+}
+.li11 .two{
+	width: 7.2rem;
+	height: 2.58rem;
+	margin: 0 auto 0.35rem;
+}
+.li11 img{
+	width: 3.16rem;
+	height: 2.58rem;
+}
+.li11 .two img:nth-child(1){
+	margin-right: 0.4rem;
+}
+.li20{
+	width: 100%;
+	height: 2.32rem;
+}
+.li20>h1{
+	width: 100%;
+    text-align: center;
+    height: 1rem;
+    letter-spacing: 0.01rem;
+}
+.li20 h1 span{
+	display: inline-block;
+	font-size: 0.26rem;
+    line-height: 0.26rem;
+    vertical-align: middle;
+    margin-top: -2rem;
+}
+.li20 h1 .bao{
+	font-size: 0.26rem;
+    line-height: 0.36rem;
+    vertical-align: middle;
+}
+.li20 .b1{
+	padding: 0.2rem;
+}
+.li20 .b1 .b11{
+	width: 1.15rem;
+	height: 0.03rem;
+	background-color: #666;
+	margin: 0 auto;
+}
+.b2{
+	margin-top: 0.36rem;
+	line-height: 0.32rem;
+	font-size: 0.26rem;
+	color: #666;
+	width: 100%;
+	height: 0.32rem;
+	text-align: center;
+}
+.b2 .b20{
+	font-size: 0.26rem;
+	line-height: 0.32rem;
+}
+.li21{
+	width: 100%;
+    height: 3.58rem;
+    font-size: 0.32rem;
+    color: #787878;
+}
+.li21-1{
+	width: 100%;
+	height: 2.14rem;
+	border-top: 0.01rem solid #666;
+	border-bottom: 0.01rem solid #666;
+	margin-top: 0.5rem;
+}
+.li21-1 .w1{
+	margin-left: 0.84rem;
+	width: 0.64rem;
+	height: 100%;
+	margin-right: 0.68rem;
+	font-size: 0.56rem;
+	line-height: 1.5rem;
+	float: left;
+}
+.li21-1 .w2{
+	padding: 0.2rem 0;
+	font-size: 0.32rem;
+	width: 3.58rem;
+	height: 100%;
+	line-height: 0.56rem;
+	float: left;
+}
+.li21-1 .w3{
+	width: 0.38rem;
+	height: 0.7rem;
+	margin-top: 0.7rem;
+	background: url('../img4/jiantou.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.li21-1 .w4{
+	width: 3.2rem;
+	height: auto;
+	margin-top: 0.15rem;
+	float: right;
+	font-size: 0.32rem;
+	line-height: 0.56rem;
+ }
+ .li21-2{
+ 	width: 100%;
+ 	height: 1.44rem;
+ 	border-bottom: 0.01rem solid #666;
+ }
+ .li21-2 .t1{
+ 	margin-left: 0.84rem;
+	width: 0.64rem;
+	height: 100%;
+	margin-right: 0.68rem;
+	font-size: 0.56rem;
+	line-height: 1.5rem;
+	float: left;
+ }
+ .li21-2 .t2{
+ 	font-size: 0.32rem;
+ 	line-height: 1.44rem;
+ 	float: left;
+ }
+ .li21-2 .t3{
+ 	float: left;
+ 	font-size: 0.32rem;
+ 	line-height: 1.44rem;
+ }
+ .copy{
+	width: 100%;
+	height: 2.4rem;
+	margin-bottom: 0.8rem;
+	background-color: #F5F6FA;
+}
+.copy p{
+	font-size: 0.24rem;
+	color: #666;
+	text-align: center;
+	padding-top: 0.2rem;
+}
+.contact{
+	width: 100%;
+    height: 1.3rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.1);
+    z-index: 999;
+}
+.contact-list{
+	width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+}
+.contact a{
+	width: 30%;
+    height: 1.3rem;
+    float: left;
+}
+.contact a div{
+	width: 100%;
+    height: 100%;
+    color: #000;
+    background: #e7e7e7;
+}
+.contact a div span{
+	float: left;
+    font-size: 0.4rem;
+    line-height: 1.3rem;
+    margin-left: 0.1rem;
+}
+.contact a img{
+	width: 0.5rem;
+	height: 0.5rem;
+	float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+.contact .phone{
+	width: 40%;
+    height: 1.3rem;
+    position: relative;
+    z-index: 99999;
+    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+    margin-top: -0.2rem;
+}
+.contact .phone .c2{
+	background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0.15rem #ff8d12;
+}
+.contact .phone .c2 img{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.contact .phone .c2 span{
+	font-size: 0.4rem;
+}

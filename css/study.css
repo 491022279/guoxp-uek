@@ -1,0 +1,166 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-10 18:52:23
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-11 11:18:50
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+    font-family: "苹方","微软雅黑", "Helvetica";
+    color: #999;
+    overflow: scroll;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	z-index: 999;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #007BE3;
+	width: 100%;
+	height: 1.26rem;
+	display: flex;
+	justify-content: space-around;
+	line-height: 1.26rem;
+}
+.header a{
+	font-size: 0.44rem;
+	color: #fff;
+}
+.banner{
+	width: 100%;
+	height: 6.06rem;
+	background-image: url('../img9/banner.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.banner .banner0{
+	width: 2.68rem;
+	height: 0.1rem;
+	background: #ff8d12;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.content{
+	width: 100%;
+	height: auto;
+	padding: 0.2rem 0.34rem 0;
+	background-color: #F5F6FA;
+}
+.mulu{
+	width: 100%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	font-size: 0.3rem;
+}
+.mulu a{
+	margin: 0 0.2rem;
+	font-size: 0.3rem;
+	color: #494747;
+}
+.mulu a:nth-child(1) {
+	margin-left: 0;
+}
+.study{
+	width: 100%;
+	height: auto;
+	padding: 0.4rem 0.36rem 0.26rem;
+	background-color: #fff;
+}
+.study p{
+	color: #333;
+	font-size: 0.34rem;
+    line-height: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-family: 微软雅黑, sans-serif;
+}
+.copy{
+	width: 100%;
+	height: 2.4rem;
+	margin-bottom: 0.8rem;
+	background-color: #f5f6fa;
+}
+.copy p{
+	font-size: 0.24rem;
+	color: #666;
+	text-align: center;
+	padding-top: 0.2rem;
+}
+.contact{
+	width: 100%;
+    height: 1.3rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.1);
+    z-index: 999;
+}
+.contact-list{
+	width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+}
+.contact a{
+	width: 30%;
+    height: 1.3rem;
+    float: left;
+}
+.contact a div{
+	width: 100%;
+    height: 100%;
+    color: #000;
+    background: #e7e7e7;
+}
+.contact a div span{
+	float: left;
+    font-size: 0.4rem;
+    line-height: 1.3rem;
+    margin-left: 0.1rem;
+}
+.contact a img{
+	width: 0.5rem;
+	height: 0.5rem;
+	float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+.contact .phone{
+	width: 40%;
+    height: 1.3rem;
+    position: relative;
+    z-index: 99999;
+    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+    margin-top: -0.2rem;
+}
+.contact .phone .c2{
+	background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0.15rem #ff8d12;
+}
+.contact .phone .c2 img{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.contact .phone .c2 span{
+	font-size: 0.4rem;
+}

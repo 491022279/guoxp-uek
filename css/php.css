@@ -1,0 +1,1211 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-08 13:51:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-11 11:15:53
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+    font-family: "苹方","微软雅黑", "Helvetica";
+    color: #999;
+    overflow: scroll;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	z-index: 999;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: #007BE3;
+	width: 100%;
+	height: 1.26rem;
+	line-height: 1.26rem;
+	overflow: hidden;
+}
+.header a{
+	width: 20%;
+	display: block;
+	float: left;
+	font-size: 0.44rem;
+	text-align: center;
+	color: #fff;
+}
+.banner{
+	width: 100%;
+	height: 7.2rem;
+	background-image: url('../img6/phpbanner.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.banner a{
+	display: block;
+	height: 0.78rem;
+	width: 3rem;
+	position: absolute;
+	bottom: 0.57rem;
+	left: 3.86rem;
+    background: url('../img6/phpbtn.png') center center no-repeat;
+    background-size: 100%;
+	text-align: center;
+	line-height: 0.78rem;
+	color: #fff;
+	font-size: 0.36rem;
+}
+.php0{
+	width: 100%;
+	height: 8.34rem;
+	background-color: #F5F6FA;
+}
+.php01{
+	width: 100%;
+	height: 2.05rem;
+	padding: 0.4rem 0;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 0.14rem 0.14rem rgba(0,0,0,0.2);
+}
+.php01 h2{
+	width: auto;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.46rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 4.08rem;
+    z-index: 10;
+}
+.php01 h2 span{
+	font-weight: 400;
+}
+.php01 .php01-1{
+	width: 1.54rem;
+	height: 1.18rem;
+	position: absolute;
+	left: 3.2rem;
+	top: 0.38rem;
+	background: url('../img6/titleL.png') center center no-repeat;
+	background-size: 100%;
+}
+.php01 .php01-2{
+	width: 0.84rem;
+	height: 0.76rem;
+	position: absolute;
+	background: url('../img6/phptitle1.png') center center no-repeat;
+	background-size: 100%;
+	top: 0.72rem;
+	left: 2.94rem;
+}
+.php01 .php01-3{
+	width: 1.7rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 2.88rem;
+	background: url('../img6/titleR.png') center center no-repeat;
+	background-size: 100%;
+}
+.php02{
+	width: 10.06rem;
+	height: 6.2rem;
+	margin: 0 auto;
+}
+.php02 .php02-1{
+	width: 100%;
+	height: 6.04rem;
+	border: 0.01rem solid #1bbf99;
+	border-top: 0;
+	padding: 0.6rem;
+	padding-top: 0.9rem;
+}
+.php02 .php02-1 p{
+	font-size: 0.32rem;
+	color: #333;
+	line-height: 0.5rem;
+	margin-top: 0.2rem;
+}
+.php1{
+	width: 100%;
+	height: 10.26rem;
+	background-color: #F5F6FA;
+}
+.php11{
+	width: 100%;
+	height: 2.05rem;
+	padding: 0.4rem 0;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 0.14rem 0.14rem rgba(0,0,0,0.2);
+}
+.php11 h2{
+	width: auto;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.46rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 4.08rem;
+    z-index: 10;
+}
+.php11 h2 span{
+	font-weight: 400;
+}
+.php11 .php11-1{
+	width: 1.54rem;
+	height: 1.18rem;
+	position: absolute;
+	left: 3.2rem;
+	top: 0.38rem;
+	background: url('../img6/titleL.png') center center no-repeat;
+	background-size: 100%;
+}
+.php11 .php11-2{
+	width: 0.84rem;
+	height: 0.76rem;
+	position: absolute;
+	background: url('../img6/phptitle2.png') center center no-repeat;
+	background-size: 100%;
+	top: 0.72rem;
+	left: 2.94rem;
+}
+.php11 .php11-3{
+	width: 1.7rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 2.88rem;
+	background: url('../img6/titleR.png') center center no-repeat;
+	background-size: 100%;
+}
+.php12{
+	width: 100%;
+	height: 4.6rem;
+	margin: 0.36rem auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.php12 .title{
+	height: 1.4rem;
+	color: #fff;
+	line-height: 1.4rem;
+	font-size: 0.36rem;
+	font-weight: 600;
+	padding-left: 1.16rem;
+}
+.php12 .box{
+	margin-bottom: 0.42rem;
+}
+.php12>div p{
+	width: 2.98rem;
+	height: 1.98rem;
+	color: #333;
+	font-size: 0.3rem;
+	padding-top: 0.3rem;
+	text-align: center;
+	margin-top: 0.07rem;
+}
+.php12>div:nth-child(1) .title{
+	background-image: url('../img6/02.png');
+	background-position: center center;
+	background-size: 100%;
+}
+.php12>div:nth-child(1) .word{
+	border: 0.01rem dashed #F2A111;
+}
+.php12>div:nth-child(2) .title{
+	background-image: url('../img6/03.png');
+	background-position: center center;
+	background-size: 100%;
+}
+.php12>div:nth-child(2) .word{
+	border: 0.01rem dashed #2F90DA;
+}
+.php12>div:nth-child(3) .title{
+	background-image: url('../img6/01.png');
+	background-position: center center;
+	background-size: 100%;
+}
+.php12>div:nth-child(3) .word{
+	border: 0.01rem dashed #F87844;
+}
+.php12>div:nth-child(4) .title{
+	background-image: url('../img6/05.png');
+	background-position: center center;
+	background-size: 100%;
+}
+.php12>div:nth-child(4) .word{
+	border: 0.01rem dashed #1BBF99;
+}
+.php12>div:nth-child(5) .title{
+	background-image: url('../img6/06.png');
+	background-position: center center;
+	background-size: 100%;
+}
+.php12>div:nth-child(5) .word{
+	border: 0.01rem dashed #F8CE68;
+}
+.php12>div:nth-child(6) .title{
+	background-image: url('../img6/04.png');
+	background-position: center center;
+	background-size: 100%;
+}
+.php12>div:nth-child(6) .word{
+	border: 0.01rem dashed #C16BBB;
+}
+.php2{
+	width: 100%;
+	height: 14.14rem;
+    background-color: #1b1d32;
+}
+.php21{
+	width: 100%;
+	height: 2.05rem;
+	padding: 0.4rem 0;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 0.14rem 0.14rem rgba(0,0,0,0.2);
+}
+.php21 h2{
+	width: auto;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.46rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 4.08rem;
+    z-index: 10;
+}
+.php21 .php21-1{
+	width: 1.54rem;
+	height: 1.18rem;
+	position: absolute;
+	left: 3.2rem;
+	top: 0.38rem;
+	background: url('../img6/titleL.png') center center no-repeat;
+	background-size: 100%;
+}
+.php21 .php21-2{
+	width: 0.84rem;
+	height: 0.76rem;
+	position: absolute;
+	background: url('../img6/phptitle3.png') center center no-repeat;
+	background-size: 100%;
+	top: 0.72rem;
+	left: 2.94rem;
+}
+.php21 .php21-3{
+	width: 1.7rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 2.88rem;
+	background: url('../img6/titleR.png') center center no-repeat;
+	background-size: 100%;
+}
+.php22{
+	width: 5.53rem;
+	height: 1rem;
+	line-height: 0.8rem;
+	margin: 0 auto;
+	position: relative;
+	font-size: 0.38rem;
+	border-bottom: 0.01rem dashed #fff;
+	text-align: center;
+	color: #00c298;
+	margin-top: 0.7rem;
+}
+.php22 .php22tiao{
+	width: 100%;
+	height: 0.01rem;
+	background-color: #fff;
+    position: absolute;
+    bottom: 0.12rem;
+}
+.php23{
+	margin: 1rem auto;
+	width: 10.06rem;
+	height: 6.34rem;
+	overflow: hidden;
+}
+.php23 .php23f{
+	width: 4.9rem;
+	height: 6.34rem;
+	border: 0.01rem solid #fff;
+	float: left;
+}
+.php23 P{
+	width: 100%;
+	text-align: center;
+	line-height: 0.64rem;
+	margin-top: 0.2rem;
+	font-size: 0.3rem;
+	color: #fff;
+}
+.php23 span{
+	color: #e47749;
+}
+.php23 img{
+	width: 4.87rem;
+	height: 3.2rem;
+}
+.php23 .words{
+	width: 100%;
+	height: 2.1rem;
+	text-align: center;
+	padding-top: 0.24rem;
+	font-size: 0.3rem;
+	color: #fff;
+	border-top: 0.01rem solid #fff;
+}
+.php23 .php23s{
+	width: 4.9rem;
+	height: 6.34rem;
+	border: 0.01rem solid #fff;
+	float: right;
+}
+.php2 a{
+	display: block;
+	height: 1.1rem;
+	width: 4.3rem;
+	margin: 0.4rem auto;
+	background-image: url('../img6/09.png');
+	background-position: center center;
+	background-size: 100%;
+	line-height: 1.1rem;
+	text-align: center;
+	font-size: 0.34rem;
+	color: #fff;
+}
+.php3{
+	width: 100%;
+	height: 10.4rem;
+	background-color: #F5F6FA;
+}
+.php31{
+	width: 100%;
+	height: 2.05rem;
+	padding: 0.4rem 0;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 0.14rem 0.14rem rgba(0,0,0,0.2);
+}
+.php31 h2{
+	width: auto;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.46rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 4.08rem;
+    z-index: 10;
+}
+.php31 .php31-1{
+	width: 1.54rem;
+	height: 1.18rem;
+	position: absolute;
+	left: 3.2rem;
+	top: 0.38rem;
+	background: url('../img6/titleL.png') center center no-repeat;
+	background-size: 100%;
+}
+.php31 .php31-2{
+	width: 0.84rem;
+	height: 0.76rem;
+	position: absolute;
+	background: url('../img6/phptitle4.png') center center no-repeat;
+	background-size: 100%;
+	top: 0.72rem;
+	left: 2.94rem;
+}
+.php31 .php31-3{
+	width: 1.7rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 2.88rem;
+	background: url('../img6/titleR.png') center center no-repeat;
+	background-size: 100%;
+}
+.php32{
+	width: 10.1rem;
+	height: auto;
+	margin: 0.6rem auto 0;
+}
+.php32 .title-name{
+	overflow: hidden;
+}
+.php32 .title-name p{
+	font-size: 0.3rem;
+	line-height: 0.87rem;
+	text-align: center;
+	color: #fff;
+	float: left;
+	border-radius: 0.2rem 0.2rem 0 0;
+}
+.title-name p:nth-child(1){
+	width: 1.86rem;
+	background-color: #40ABFD;
+}
+.title-name p:nth-child(2){
+	width: 2.6rem;
+	background-color: #219EFF;
+}
+.title-name p:nth-child(3){
+	width: 5.64rem;
+	background-color: #118DED;
+}
+.names{
+	width: 10.1rem;
+	border: 0.01rem solid #87B5FC;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.names li{
+	width: 100%;
+	height: 0.87rem;
+	overflow: hidden;
+}
+.names .n1,.names .n3,.names .n5{
+	background-color: #eee;
+}
+.names li p{
+	height: 0.87rem;
+	font-size: 0.3rem;
+	line-height: 0.87rem;
+	text-align: center;
+	color: #666;
+	float: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.names li .p1{
+	width: 1.86rem;
+}
+.names li .p2{
+    width: 2.6rem;
+    color: #feaf34;
+}
+.names li .p3{
+	width: 5.52rem;
+}
+.php3 a{
+	display: block;
+	height: 1.1rem;
+	width: 4.3rem;
+	margin: 0.6rem auto;
+	background-image: url('../img6/09.png');
+	background-position: center center;
+	background-size: 100%;
+	line-height: 1.1rem;
+	text-align: center;
+	font-size: 0.34rem;
+	color: #fff;
+}
+.php4{
+	width: 100%;
+	height: 17.3rem;
+	background-color: #1b1d32;
+}
+.php41{
+	width: 100%;
+	height: 2.05rem;
+	padding: 0.4rem 0;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 0.14rem 0.14rem rgba(0,0,0,0.2);
+}
+.php41 h2{
+	width: auto;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.46rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 4.08rem;
+    z-index: 10;
+}
+.php41 h2 span{
+	font-weight: 400;
+}
+.php41 .php41-1{
+	width: 1.54rem;
+	height: 1.18rem;
+	position: absolute;
+	left: 3.2rem;
+	top: 0.38rem;
+	background: url('../img6/titleL.png') center center no-repeat;
+	background-size: 100%;
+}
+.php41 .php41-2{
+	width: 0.84rem;
+	height: 0.76rem;
+	position: absolute;
+	background: url('../img6/phptitle5.png') center center no-repeat;
+	background-size: 100%;
+	top: 0.72rem;
+	left: 2.94rem;
+}
+.php41 .php41-3{
+	width: 1.7rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 2.88rem;
+	background: url('../img6/titleR.png') center center no-repeat;
+	background-size: 100%;
+}
+.php42{
+	margin: 0.84rem 0.3rem 0;
+	width: 10.2rem;
+	height: 13.7rem;
+}
+.php42 li{
+	padding: 0 0.2rem;
+	width: 100%;
+	overflow: hidden;
+}
+.php42 .left{
+	width: 0.76rem;
+	height: 2.16rem;
+	float: left;
+	overflow: hidden;
+}
+.php42 .right{
+	margin-left: 0.42rem;
+	width: 8.56rem;
+	height: 100%;
+	float: right;
+}
+.php42 .lu1{
+	width: 0.76rem;
+	height: 0.76rem;
+	border: 0.06rem solid #ffd300;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #fff;
+	font-size: 0.34rem;
+}
+.php42 .ld1{
+    width: 0.03rem;
+    height: 1.4rem;
+    background-color: #ffd300;
+    margin: 0 auto;
+}
+.php42 .ru1{
+	font-size: 0.38rem;
+	color: #ffd300;
+	display: block;
+}
+.php42 .rd1{
+	font-size: 0.26rem;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	margin-top: 0.2rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	border-top: 0.01rem dashed #ffd300;
+}
+.php42 .lu2{
+	width: 0.76rem;
+	height: 0.76rem;
+	border: 0.06rem solid #dd534e;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #fff;
+	font-size: 0.34rem;
+}
+.php42 .ld2{
+    width: 0.03rem;
+    height: 1.4rem;
+    background-color: #ffd300;
+    margin: 0 auto;
+}
+.php42 .ru2{
+	font-size: 0.38rem;
+	color: #dd534e;
+	display: block;
+}
+.php42 .rd2{
+	font-size: 0.26rem;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	margin-top: 0.2rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	border-top: 0.01rem dashed #dd534e;
+}
+.php42 .lu3{
+	width: 0.76rem;
+	height: 0.76rem;
+	border: 0.06rem solid #87bf7f;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #fff;
+	font-size: 0.34rem;
+}
+.php42 .ld3{
+    width: 0.03rem;
+    height: 1.4rem;
+    background-color: #ffd300;
+    margin: 0 auto;
+}
+.php42 .ru3{
+	font-size: 0.38rem;
+	color: #87bf7f;
+	display: block;
+}
+.php42 .rd3{
+	font-size: 0.26rem;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	margin-top: 0.2rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	border-top: 0.01rem dashed #87bf7f;
+}
+.php42 .lu4{
+	width: 0.76rem;
+	height: 0.76rem;
+	border: 0.06rem solid #1fa4db;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #fff;
+	font-size: 0.34rem;
+}
+.php42 .ld4{
+    width: 0.03rem;
+    height: 1.4rem;
+    background-color: #ffd300;
+    margin: 0 auto;
+}
+.php42 .ru4{
+	font-size: 0.38rem;
+	color: #1fa4db;
+	display: block;
+}
+.php42 .rd4{
+	font-size: 0.26rem;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	margin-top: 0.2rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	border-top: 0.01rem dashed #1fa4db;
+}
+.php42 .lu5{
+	width: 0.76rem;
+	height: 0.76rem;
+	border: 0.06rem solid #f6ce64;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #fff;
+	font-size: 0.34rem;
+}
+.php42 .ld5{
+    width: 0.03rem;
+    height: 1.4rem;
+    background-color: #ffd300;
+    margin: 0 auto;
+}
+.php42 .ru5{
+	font-size: 0.38rem;
+	color: #f6ce64;
+	display: block;
+}
+.php42 .rd5{
+	font-size: 0.26rem;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	margin-top: 0.2rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	border-top: 0.01rem dashed #f6ce64;
+}
+.php42 .lu6{
+	width: 0.76rem;
+	height: 0.76rem;
+	border: 0.06rem solid #a86baa;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #fff;
+	font-size: 0.34rem;
+}
+.php42 .ru6{
+	font-size: 0.38rem;
+	color: #a86baa;
+	display: block;
+}
+.php42 .rd6{
+	font-size: 0.26rem;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	margin-top: 0.2rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	border-top: 0.01rem dashed #a86baa;
+}
+.php5{
+	width: 100%;
+	height: 10.1rem;
+	background-color: #F5F6FA;
+}
+.php51{
+	width: 100%;
+	height: 2.05rem;
+	padding: 0.4rem 0;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 0.14rem 0.14rem rgba(0,0,0,0.2);
+}
+.php51 h2{
+	width: auto;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.46rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 4.08rem;
+    z-index: 10;
+}
+.php51 h2 span{
+	font-weight: 400;
+}
+.php51 .php51-1{
+	width: 1.54rem;
+	height: 1.18rem;
+	position: absolute;
+	left: 3.2rem;
+	top: 0.38rem;
+	background: url('../img6/titleL.png') center center no-repeat;
+	background-size: 100%;
+}
+.php51 .php51-2{
+	width: 0.84rem;
+	height: 0.76rem;
+	position: absolute;
+	background: url('../img6/phptitle6.png') center center no-repeat;
+	background-size: 100%;
+	top: 0.72rem;
+	left: 2.94rem;
+}
+.php51 .php51-3{
+	width: 1.7rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 2.88rem;
+	background: url('../img6/titleR.png') center center no-repeat;
+	background-size: 100%;
+}
+.php52{
+	margin: 1.18rem 1rem;
+	height: 5.68rem;
+	width: 8.80rem;
+}
+.php52 li{
+	width: 100%;
+	height: 1.4rem;
+	overflow: hidden;
+}
+.php52 .phpzw1{
+	margin-left: 0.9rem;
+	width: 3.24rem;
+	height: 100%;
+    background: url('../img6/phpzw1.png') center center no-repeat;
+    background-size: 100%;
+    font-size: 0.3rem;
+    color: #333;
+    padding-left: 1.2rem;
+    line-height: 1.5rem;
+    float: left;
+}
+.php52 .phpzw2{
+	margin-left: 5.18rem;
+	width: 3.24rem;
+	height: 100%;
+    background: url('../img6/phpzw2.png') center center no-repeat;
+    background-size: 100%;
+    font-size: 0.3rem;
+    color: #333;
+    padding-left: 1.2rem;
+    line-height: 1.5rem;
+}
+.php52 .phpzw3{
+	margin-left: 3.05rem;
+	width: 3.24rem;
+	height: 100%;
+    background: url('../img6/phpzw3.png') center center no-repeat;
+    background-size: 100%;
+    font-size: 0.3rem;
+    color: #333;
+    padding-left: 1.2rem;
+    line-height: 1.5rem;
+    float: left;
+}
+.php52 .phpzw4{
+	margin-left: 0.5rem;
+	width: 3.24rem;
+	height: 100%;
+    background: url('../img6/phpzw4.png') center center no-repeat;
+    background-size: 100%;
+    font-size: 0.3rem;
+    color: #333;
+    padding-left: 1.2rem;
+    line-height: 1.5rem;
+    float: left;
+}
+.php52 .phpzw5{
+	margin-left: 5.7rem;
+	width: 3.24rem;
+	height: 100%;
+    background: url('../img6/phpzw5.png') center center no-repeat;
+    background-size: 100%;
+    font-size: 0.3rem;
+    color: #333;
+    padding-left: 1.2rem;
+    line-height: 1.5rem;
+}
+.php52 .phpzw6{
+	margin-left: 2.52rem;
+	width: 3.24rem;
+	height: 100%;
+    background: url('../img6/phpzw6.png') center center no-repeat;
+    background-size: 100%;
+    font-size: 0.3rem;
+    color: #333;
+    padding-left: 1.2rem;
+    line-height: 1.5rem;
+    float: left;
+}
+.php6{
+	width: 100%;
+	height: 10.5rem;
+	background-color: #1b1d32;
+}
+.php61{
+	width: 100%;
+	height: 2.05rem;
+	padding: 0.4rem 0;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 0.14rem 0.14rem rgba(0,0,0,0.2);
+}
+.php61 h2{
+	width: auto;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.46rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 4.08rem;
+    z-index: 10;
+}
+.php61 .php61-1{
+	width: 1.54rem;
+	height: 1.18rem;
+	position: absolute;
+	left: 3.2rem;
+	top: 0.38rem;
+	background: url('../img6/titleL.png') center center no-repeat;
+	background-size: 100%;
+}
+.php61 .php61-2{
+	width: 0.84rem;
+	height: 0.76rem;
+	position: absolute;
+	background: url('../img6/phptitle7.png') center center no-repeat;
+	background-size: 100%;
+	top: 0.72rem;
+	left: 2.94rem;
+}
+.php61 .php61-3{
+	width: 1.7rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 2.88rem;
+	background: url('../img6/titleR.png') center center no-repeat;
+	background-size: 100%;
+}
+.php62{
+	padding-top: 1.48rem;
+	width: 9.6rem;
+	height: 8.5rem;
+	margin: 0 auto;
+}
+.phpren{
+	height: 4.54rem;
+	width: 2.6rem;
+	background: url('../img6/phpren.png') center center no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.php62 .phpt{
+	width: 8.2rem;
+	height: 4.2rem;
+	border: 0.01rem solid #ffd300;
+	border-left: none;
+	margin-left: 1.2rem;
+	margin-top: 0.2rem;
+}
+.php62 .phpt li{
+	width: 95%;
+	height: 0.82rem;
+	border-bottom: 0.01rem dashed #ffd300;
+}
+.php62 .phpt li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #fff;
+	padding-left: 2.15rem;
+	font-size: 0.3rem;
+	line-height: 1rem;
+}
+.phpt li .xue{
+	border: none;
+}
+.php6 .more{
+	display: block;
+	height: 1.1rem;
+	width: 4.3rem;
+	margin: 0.6rem auto;
+	background-image: url('../img6/09.png');
+	background-position: center center;
+	background-size: 100%;
+	line-height: 1.1rem;
+	text-align: center;
+	font-size: 0.34rem;
+	color: #fff;
+}
+.php7{
+	height: 12.84rem;
+	width: 100%;
+	background: #F5F6FA;
+}
+.php71{
+	width: 100%;
+	height: 2.05rem;
+	padding: 0.4rem 0;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 0.14rem 0.14rem rgba(0,0,0,0.2);
+}
+.php71 h2{
+	width: auto;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.46rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 4.08rem;
+    z-index: 10;
+}
+.php71 .php71-1{
+	width: 1.54rem;
+	height: 1.18rem;
+	position: absolute;
+	left: 3.2rem;
+	top: 0.38rem;
+	background: url('../img6/titleL.png') center center no-repeat;
+	background-size: 100%;
+}
+.php71 .php71-2{
+	width: 0.84rem;
+	height: 0.76rem;
+	position: absolute;
+	background: url('../img6/phptitle8.png') center center no-repeat;
+	background-size: 100%;
+	top: 0.72rem;
+	left: 2.94rem;
+}
+.php71 .php71-3{
+	width: 1.7rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: 2.88rem;
+	background: url('../img6/titleR.png') center center no-repeat;
+	background-size: 100%;
+}
+.php72{
+	width: 7rem;
+	margin: 0 auto;
+	text-align: center;
+}
+.php72>div{
+	margin-top: 0.7rem;
+	overflow: hidden;
+}
+.php72>div p{
+    font-size: 0.38rem;
+    line-height: 0.78rem;
+    color: #333;
+    width: 1.08rem;
+    height: 0.78rem;
+    float: left;
+    text-align: center;
+}
+.php72 div p .xing{
+	color: red;
+}
+.php72 .shuru{
+	display: block;
+	float: left;
+	font-size: 0.38rem;
+	padding-left: 0.62rem;
+	width: 5.74rem;
+	height: 0.78rem;
+	border-radius: 0.4rem;
+	border: 0.02rem solid #70E8FA;
+	outline: none;
+}
+.php72>div select{
+	float: left;
+    color: #333;
+    font-size: 0.38rem;
+    width: 5.74rem;
+    height: 0.78rem;
+    line-height: 0.78rem;
+    display: block;
+    padding-left: 0.62rem;
+    border-radius: 0.4rem;
+    border: 0.02rem solid #70E8FA;
+}
+.php72>div select option{
+	outline: none;
+    color: #000;
+}
+.submit{
+	display: block;
+	height: 1.14rem;
+	width: 4.3rem;
+	margin: 0.5rem auto;
+	background-image: url('../img6/09.png');
+	background-position: center center;
+	background-size: 100%;
+	line-height: 1.14rem;
+	text-align: center;
+	border: none;
+	border-radius: 0.5rem;
+	font-size: 0.38rem;
+	color: #fff;
+}
+.copy{
+	width: 100%;
+	height: 2.4rem;
+}
+.copy p{
+	font-size: 0.24rem;
+	color: #666;
+	text-align: center;
+	padding-top: 0.2rem;
+}
+.contact{
+	width: 100%;
+    height: 0.8rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 0.4rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.1);
+    z-index: 999;
+}
+.contact-list{
+	width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+}
+.contact a{
+	width: 30%;
+    height: 0.8rem;
+    float: left;
+}
+.contact a div{
+	width: 100%;
+    height: 100%;
+    color: #000;
+    background: #e7e7e7;
+}
+.contact a div span{
+	float: left;
+    font-size: 0.4rem;
+    line-height: 0.8rem;
+    margin-left: 0.1rem;
+}
+.contact a img{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+}
+.contact .phone{
+	width: 40%;
+    height: 0.8rem;
+    position: relative;
+    z-index: 99999;
+    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+    margin-top: -0.2rem;
+}
+.contact .phone .c2{
+	background-color: #ff8d12;
+    border-radius: 0.08rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0.15rem #ff8d12;
+}
+.contact .phone .c2 img{
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.contact .phone .c2 span{
+	font-size: 0.4rem;
+}
